@@ -13,9 +13,10 @@ LEFT JOIN {{this}} ffb ON et.to = ffb.address WHERE ffb.address IS NULL
 {% else %}
 WHERE 1 = 1
 {% endif %}
-AND et.success
+WHERE et.success
 AND (et.call_type NOT IN ('delegatecall', 'callcode', 'staticcall') OR et.call_type IS NULL)
 AND CAST(et.value AS double) > 0
+AND et.from!=et.to
 {% if is_incremental() %}
 AND et.block_time >= date_trunc('day', now() - interval '7' day)
 {% endif %}
