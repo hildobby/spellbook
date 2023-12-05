@@ -71,8 +71,8 @@ models:
       - &token_pair
         name: token_pair
         description: "Token symbol pair for each token involved in the trade"
-      - &index
-        name: index
+      - &tx_index
+        name: tx_index
         description: "Index of the transaction in block"
       - &token_sold_amount_raw
         name: token_sold_amount_raw
@@ -127,7 +127,7 @@ models:
       - *project_contract_address
       - *trace_address
       - *token_pair
-      - *index
+      - *tx_index
       - *token_sold_amount_raw
       - *token_bought_amount_raw
       - *token_sold_amount
@@ -169,7 +169,7 @@ models:
       - *project_contract_address
       - *trace_address
       - *token_pair
-      - *index
+      - *tx_index
       - *token_sold_amount_raw
       - *token_bought_amount_raw
       - *token_sold_amount
@@ -211,7 +211,7 @@ models:
       - *project_contract_address
       - *trace_address
       - *token_pair
-      - *index
+      - *tx_index
       - *token_sold_amount_raw
       - *token_bought_amount_raw
       - *token_sold_amount
@@ -253,7 +253,7 @@ models:
       - *project_contract_address
       - *trace_address
       - *token_pair
-      - *index
+      - *tx_index
       - *token_sold_amount_raw
       - *token_bought_amount_raw
       - *token_sold_amount
@@ -295,7 +295,7 @@ models:
       - *project_contract_address
       - *trace_address
       - *token_pair
-      - *index
+      - *tx_index
       - *token_sold_amount_raw
       - *token_bought_amount_raw
       - *token_sold_amount
@@ -337,7 +337,7 @@ models:
       - *project_contract_address
       - *trace_address
       - *token_pair
-      - *index
+      - *tx_index
       - *token_sold_amount_raw
       - *token_bought_amount_raw
       - *token_sold_amount
@@ -379,7 +379,7 @@ models:
       - *project_contract_address
       - *trace_address
       - *token_pair
-      - *index
+      - *tx_index
       - *token_sold_amount_raw
       - *token_bought_amount_raw
       - *token_sold_amount
@@ -421,7 +421,7 @@ models:
       - *project_contract_address
       - *trace_address
       - *token_pair
-      - *index
+      - *tx_index
       - *token_sold_amount_raw
       - *token_bought_amount_raw
       - *token_sold_amount
@@ -463,9 +463,7 @@ models:
       - *project_contract_address
       - *trace_address
       - *token_pair
-      - &tx_index
-        name: tx_index
-        description: "Index of transaction in block"
+      - *tx_index
       - *token_sold_amount_raw
       - *token_bought_amount_raw
       - *token_sold_amount
