@@ -2478,6 +2478,7 @@ FROM (VALUES
     , (0xa96853390c776ce8307b46b4d1a857ab310ab018, 'Bullish', 'Bullish MultiSig 1', 'hildobby', date '2024-01-04')
     , (0x756d64dc5edb56740fc617628dc832ddbcfd373c, 'Bullish', 'Bullish MultiSig 2', 'hildobby', date '2024-01-04')
     , (0xc08fb884576cc89957e9058ef11587c468c2952f, 'Bullish', 'Bullish Deployer 1', 'hildobby', date '2024-01-04')
+    , (0xf394287268a530968b8769c84f890a3cb9034790, 'Bullish', 'Bullish Forwarder 1', 'hildobby', date '2024-07-01')
     -- FalconX
     , (0x1157a2076b9bb22a85cc2c162f20fab3898f4101, 'FalconX', 'FalconX 1', 'hildobby', date '2024-01-04')
     , (0xe1ed4da4284924ddaf69983b4d813fb1be58c380, 'FalconX', 'FalconX 2', 'hildobby', date '2024-01-04')
