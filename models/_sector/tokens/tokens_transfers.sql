@@ -20,6 +20,7 @@
     ,'scroll'
     ,'zkevm'
     ,'linea'
+    ,'blast'
 ] %}
 
 SELECT *
