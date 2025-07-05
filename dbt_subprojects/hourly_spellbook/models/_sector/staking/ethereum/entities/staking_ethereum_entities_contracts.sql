@@ -32,6 +32,7 @@ WITH contracts AS (
     , (0x4f4bfa0861f62309934a5551e0b2541ee82fdcf1, 'Stader', 'Liquid Staking')
     , (0x09134c643a6b95d342bdaf081fa473338f066572, 'Stader', 'Liquid Staking')
     , (0xd1a72bd052e0d65b7c26d3dd97a98b74acbbb6c5, 'Stader', 'Liquid Staking')
+    , (0x23be839a14cec3d6d716d904f09368bbf9c750eb, 'P2P.org', 'P2P.org', 'Staking Pool')
         ) 
         x (address, entity, category)
     )
